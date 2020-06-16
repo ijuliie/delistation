@@ -1,0 +1,52 @@
+$tablet: 769px !default;
+$desktop: 1000px !default;
+$widescreen: 1192px !default;
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subtitle, .subtitle:not(:last-child), .title:not(:last-child) {
+    padding-top: 2%;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.notification .subtitle {
+    color: #210124;
+}
+
+.notification {
+    background-color: #ffffff;
+    padding: 0;
+}
+
+.message-header {
+    background-color: #750D37;
+}
+
+.column {
+    padding: 0;
+    padding-top: 1em;
+    padding-left: 1em;
+}
+
+.breakfast, .hot-sandwiches {
+    padding-right: 0.25em;
+}
+
+.cold-sandwiches, .salads {
+    padding-right: 0.25em;
+}
+
+.breakfast, .cold-sandwiches, .salads, .fries, .specials, {
+    padding-bottom: 1em;
+}
+
+.card-content {
+    padding: 0;
+    padding-bottom: 1%;
+}
