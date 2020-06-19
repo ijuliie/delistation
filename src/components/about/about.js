@@ -1,22 +1,65 @@
 import React from "react"
+import hoursArr from "../hours"
+import italiansub from "../../assets/italian-sub.png"
+import "./about.scss"
 
 export default function About(){
     return (
-        <div className="wrapper">
+        <>
             <div className="about">
-                <div className="title">LOCATION</div>
-                <div className="address"> 201 East 4th St.</div>
-                <div className="address">Santa Ana, CA 92701</div>
+
+                <div className="banner-wrapper">
+                    <div className="image-wrapper">
+                        <div className="image">
+                            <div className="content">
+                                <div className="banner">
+                                    <div className="inner-banner is-size-2-desktop">
+                                        <p>Quick.</p> 
+                                        <p>Tasty.</p> 
+                                        <p>Simple.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div className="row">
+                    <div className="columns">
+                        <div className="intro-wrapper column">
+                            <section className="intro">
+                                <p>We put the "deli" in</p>
+                                <p>"delicious"! Come</p>
+                                <p>visit The Deli Station!</p>
+                            </section>
+
+
+                            {/* <section className="has-text-weight-bold">Location:</section> */}
+                            <div className="columns is-mobile">
+                                <section className="column address">
+                                    <p className="subtitle">Downtown Santa Ana</p>
+                                    <p className="subtitle">201 East 4th St</p>
+                                    <p className="subtitle">Santa Ana, CA 92701</p>
+                                </section>
+
+
+                                <section className="column hours">
+                                    {
+                                        hoursArr.map((hour, i) => {
+                                            return (
+                                                <p key={i} className="subtitle">{hour.day} {hour.open} - {hour.close}</p>
+                                            )
+                                        })
+                                    }
+                                </section>
+                            </div>
+                        </div>
+                        <div className="column">
+                            <img src={italiansub} />
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div className="hours">
-                <p>SUN 8:30am - 9:00pm</p>
-                <p>MON 8:30am - 9:00pm</p>
-                <p>TUE 8:30am - 9:00pm</p>
-                <p>WED 8:30am - 9:00pm</p>
-                <p>THU 8:30am - 10:00pm</p>
-                <p>FRI 8:30am - 10:00pm</p>
-                <p>SAT 8:30am - 11:00pm</p>
-            </div>
-        </div>
+        </>
     )
 }

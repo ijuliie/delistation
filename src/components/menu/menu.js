@@ -84,7 +84,7 @@ export default function Menu(){
 
                     <div className="column salads">
                         <div className="notification is-size-7">
-                            <div className="message-header">SALADS & WRAPS</div>
+                            <div className="message-header">SALADS/WRAPS</div>
                             {salads}
                         </div>
 

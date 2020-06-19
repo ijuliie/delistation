@@ -1,10 +1,5 @@
-$tablet: 769px !default;
-$desktop: 1000px !default;
-$widescreen: 1192px !default;
-
-.wrapper {
-    display: flex;
-    justify-content: space-between;
+.navbar {
+    background-color: transparent;
 }
 
 .subtitle, .subtitle:not(:last-child), .title:not(:last-child) {
@@ -22,31 +17,34 @@ $widescreen: 1192px !default;
 .notification {
     background-color: #ffffff;
     padding: 0;
+    padding: 0.5rem 0.1rem 0.5rem 0.5rem;
 }
 
 .message-header {
-    background-color: #750D37;
-}
-
-.column {
-    padding: 0;
-    padding-top: 1em;
-    padding-left: 1em;
-}
-
-.breakfast, .hot-sandwiches {
-    padding-right: 0.25em;
-}
-
-.cold-sandwiches, .salads {
-    padding-right: 0.25em;
-}
-
-.breakfast, .cold-sandwiches, .salads, .fries, .specials, {
-    padding-bottom: 1em;
+    background-color: #B3DEC1;
+    position: static;
 }
 
 .card-content {
     padding: 0;
     padding-bottom: 1%;
+}
+
+
+@media screen and (min-width: 768px) {
+    .intro-wrapper .intro {
+        text-align: center;
+        font-size: 2.5em;
+    }
+}
+
+@media screen and (min-width: 1020px) {
+    .banner-wrapper .image-wrapper .image .banner .inner-banner {
+        padding: 3em 3em;
+    }
+
+    .intro-wrapper .intro {
+        text-align: left;
+        font-size: 2.70em;
+    }
 }

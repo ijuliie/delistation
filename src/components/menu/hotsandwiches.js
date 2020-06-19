@@ -21,17 +21,17 @@ const hotSandwiches = [
     },
     {
         item: "Sloppy BBQ Pork",
-        ingredients: "baguette, shredded pork, barbecue sauce, chipotle sauce, coleslaw, crispy fries", // side of fries ?
+        ingredients: "baguette, shredded pork, barbecue sauce, chipotle sauce, coleslaw, crispy fries",
         price: "10.50"
     },
     {
         item: "Sloppy BBQ Brisket & Sausage",
-        ingredients: "baguette, beef brisket, sausage, barbecue sauce, chipotle sauce, coleslaw, crispy fries", // side of fries ?
+        ingredients: "baguette, beef brisket, sausage, barbecue sauce, chipotle sauce, coleslaw, crispy fries",
         price: "10.99"
     },
     {
         item: "Pigged Out Patty Melt",
-        ingredients: "rye bread, 8 oz patty, bacon, tomatoes, avocado, grilled onions, russian dressing, cheese", // what kind of cheese
+        ingredients: "rye bread, 8 oz patty, bacon, tomatoes, avocado, grilled onions, russian dressing, american cheese",
         price: "10.99"
     },
     {
@@ -41,12 +41,12 @@ const hotSandwiches = [
     },
     {
         item: "Turkey Melt",
-        ingredients: "turkey, avocado, swiss cheese", // what kind of bread
+        ingredients: "sourdough bread, turkey, avocado, swiss cheese",
         price: "10.99"
     },
     {
         item: "BLT w/ Avocado",
-        ingredients: "bacon, lettuce, tomatoes, mayo, avocado", // what kind of bread
+        ingredients: "sourdough bread, bacon, lettuce, tomatoes, mayo, avocado",
         price: "10.50"
     },
     {
@@ -56,7 +56,7 @@ const hotSandwiches = [
     },
     {
         item: "Ribeye Philly Cheesesteak",
-        ingredients: "baguette, steak, grilled onions, bell peppers, cheese", // what kind of cheese 
+        ingredients: "baguette, steak, grilled onions, bell peppers, provolone cheese",
         price: "10.50"
     }
 ]

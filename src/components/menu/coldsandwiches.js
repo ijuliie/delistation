@@ -1,11 +1,11 @@
 const coldSandwiches = [
     {
         item: "Oven Roast Turkey",
-        ingredients: "turkey, cranberry mayo, lettuce, red onions, tomatoes, pickles, cheese", // what kind of cheese ?
+        ingredients: "turkey, cranberry mayo, lettuce, red onions, tomatoes, pickles, provolone cheese",
         price: "8.25"
     },
     {
-        item: "Over Roast Ham",
+        item: "Oven Roast Ham",
         ingredients: "ham, cranberry mayo, lettuce, red onions, tomatoes, pickles, provolone cheese",
         price: "8.25"
     }, 
@@ -26,7 +26,7 @@ const coldSandwiches = [
     },
     {
         item: "California Turkey Club",
-        ingredients: "bacon, cranberry mayo, lettuce, red onions, tomatoes, pickles, avocado, provolone cheese",
+        ingredients: "turkey, bacon, cranberry mayo, lettuce, red onions, tomatoes, pickles, avocado, provolone cheese",
         price: "9.99"
     }
 ]

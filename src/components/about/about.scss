@@ -1,0 +1,58 @@
+.banner-wrapper {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+
+    .image-wrapper {
+        display: table;
+        table-layout: fixed;
+        width: 100%;
+
+        .image {
+            vertical-align: middle;
+            background-image: url(../../assets/cuban.png);
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            background-size: cover;
+
+            .banner {
+                display: table;
+                width: 100%;
+                max-width: 1100px;
+                margin: auto;
+
+                .inner-banner {
+                    display: table-cell;
+                    margin: auto;
+                    vertical-align: middle;
+                    color: #fefffe;
+                    font-family: 'Sigmar One', cursive;
+                    font-size: 2em;
+                    padding: 3em 2em;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}
+
+.intro-wrapper {
+    margin: 3rem 1.5rem;
+
+    .intro {
+        text-transform: uppercase;
+        font-size: 1.85em;
+        color: #210124;
+        font-family: 'Titan One', cursive;
+    }
+
+    .address > .subtitle, .hours > .subtitle {
+        font-size: 1em;
+        font-weight: 800;
+    }
+}
+
+img {
+    width: 100%;
+}
