@@ -53,7 +53,8 @@ export default function Menu(){
     })
 
     return (
-        <div className="menu">
+        <div id="menu" className="menu">
+            <h1 className="title has-text-centered">Menu</h1>
             <div className="row">
                 <div className="columns">
                     <div className="column breakfast">

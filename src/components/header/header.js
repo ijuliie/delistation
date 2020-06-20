@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "react-router-dom"
 import "./header.scss"
 
 export default function Header(){
@@ -15,9 +14,9 @@ export default function Header(){
                 </div>
                 <div className="navbar-menu">
                     <div className="navbar-end">
-                        <Link to="/" className="navbar-item">about</Link>
-                        <Link to="/menu" className="navbar-item">menu</Link>
-                        <Link className="navbar-item">contact</Link>
+                        <a href="/" className="navbar-item">about</a>
+                        <a href="#menu" className="navbar-item">menu</a>
+                        <a href="#contact" className="navbar-item">contact</a>
                     </div>
                 </div>
             </nav>

@@ -2,6 +2,13 @@
     background-color: transparent;
 }
 
+.menu > h1.title {
+    font-size: 2em;
+    font-family: 'Sigmar One', cursive;
+    margin-bottom: 1rem;
+    color: #210124;
+}
+
 .subtitle, .subtitle:not(:last-child), .title:not(:last-child) {
     padding-top: 2%;
     margin-bottom: 0;
@@ -30,8 +37,20 @@
     padding-bottom: 1%;
 }
 
+.intro-wrapper .intro {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.columns > .address, .columns > .hours {
+    text-align: center;
+}
 
 @media screen and (min-width: 768px) {
+    .inner-banner > p {
+        font-size: 3rem;
+    }
+
     .intro-wrapper .intro {
         text-align: center;
         font-size: 2.5em;
@@ -41,10 +60,28 @@
 @media screen and (min-width: 1020px) {
     .banner-wrapper .image-wrapper .image .banner .inner-banner {
         padding: 3em 3em;
+
+        p {
+            font-size: 4rem;
+        }
     }
 
-    .intro-wrapper .intro {
-        text-align: left;
-        font-size: 2.70em;
+    .about > .row {
+        margin-top: 5.5rem;
+
+        .intro-wrapper {
+            margin: 0;
+            margin: 0.5rem 1.5rem;
+        }
+    
+        .intro-wrapper .intro {
+            text-align: left;
+            font-size: 2.70em;
+        }
+
+        .columns > .address, .columns > .hours {
+            text-align: left;
+        }
     }
+
 }
