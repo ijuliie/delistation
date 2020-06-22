@@ -1,4 +1,5 @@
 import React from "react"
+import Scrollchor from "react-scrollchor"
 import "./header.scss"
 
 export default function Header(){
@@ -14,9 +15,9 @@ export default function Header(){
                 </div>
                 <div className="navbar-menu">
                     <div className="navbar-end">
-                        <a href="/" className="navbar-item">about</a>
-                        <a href="#menu" className="navbar-item">menu</a>
-                        <a href="#contact" className="navbar-item">contact</a>
+                        <a className="navbar-item"><Scrollchor to="#about">about</Scrollchor></a>
+                        <a className="navbar-item"><Scrollchor to="#menu" animate={{duration: 350}}>menu</Scrollchor></a>
+                        <a className="navbar-item"><Scrollchor to="#contact" >contact</Scrollchor></a>
                     </div>
                 </div>
             </nav>

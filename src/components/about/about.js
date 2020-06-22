@@ -11,7 +11,7 @@ export default function About(){
         <>
             {
                 isTablet ?
-                    <div className="about">
+                    <div id="about" className="about">
 
                         <div className="banner-wrapper">
                             <div className="image-wrapper">

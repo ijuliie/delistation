@@ -18,6 +18,14 @@ const salads = [
         item: "BBQ Chicken Salad",
         ingredients: "grilled chicken, romaine lettuce, tomatoes, avocado, cucumber, corn, barbecue sauce, side of ranch", //dressing?
         price: "10.99/$9.99"
+    }, 
+    {
+        item: "12oz Chicken Noodle Soup",
+        price: "3.50"
+    },
+    {
+        item: "Soup of The Day",
+        price: "4.50"
     }
 ]
 

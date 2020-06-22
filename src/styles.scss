@@ -66,6 +66,18 @@
         }
     }
 
+    .cold-sandwiches > .notification {
+        margin-bottom: 1.5rem;
+    }
+
+    .hot-sandwiches > .notification {
+        margin-bottom: 0;
+    }
+
+    .fries > .notification {
+        margin-bottom: 2rem;
+    }
+
     .about > .row {
         margin-top: 5.5rem;
 
