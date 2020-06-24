@@ -2,6 +2,7 @@ import React from "react"
 import hoursArr from "../hours"
 import italiansub from "../../assets/italian-sub.png"
 import { useMediaQuery } from "react-responsive"
+import Header from "../header/header"
 import logo from "../../assets/white-logo-drop-shadow.png"
 import "./about.scss"
 
@@ -27,6 +28,8 @@ export default function About(){
                                 </div>
                             </div>
                         </div>
+
+                        <Header />
                         
                         <div className="row">
                             <div className="columns">
