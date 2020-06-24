@@ -2,6 +2,7 @@ import React from "react"
 import hoursArr from "../hours"
 import italiansub from "../../assets/italian-sub.png"
 import { useMediaQuery } from "react-responsive"
+import logo from "../../assets/white-logo-drop-shadow.png"
 import "./about.scss"
 
 export default function About(){
@@ -19,9 +20,7 @@ export default function About(){
                                     <div className="content">
                                         <div className="banner">
                                             <div className="inner-banner">
-                                                <p>Quick.</p> 
-                                                <p>Tasty.</p> 
-                                                <p>Simple.</p>
+                                                <img src={logo} />
                                             </div>
                                         </div>
                                     </div>
@@ -73,10 +72,8 @@ export default function About(){
                                 <div className="image">
                                     <div className="content">
                                         <div className="banner">
-                                            <div className="inner-banner is-size-2-desktop">
-                                                <p>Quick.</p> 
-                                                <p>Tasty.</p> 
-                                                <p>Simple.</p>
+                                            <div className="inner-banner">
+                                                <img src={logo} />
                                             </div>
                                         </div>
                                     </div>

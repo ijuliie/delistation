@@ -54,7 +54,7 @@ export default function Menu(){
 
     return (
         <div id="menu" className="menu">
-            <h1 className="title has-text-centered">Menu</h1>
+            <h1 className="title has-text-centered">Our Menu</h1>
 
             <div className="row">
                 <div className="columns">
@@ -84,16 +84,6 @@ export default function Menu(){
                             <div className="message-header">HOT SANDWICHES (includes 4oz side deli salad)</div>
                             {hotSandwiches}
                             </div>
-
-                        <div className="kids">
-                            <div className="notification is-size-7">
-                                <div className="message-header">KID'S MENU</div>
-                                <div className="subtitle">Grilled Cheese w/ Fries <span>$5.99</span></div>
-                                <div>
-                                <div className="subtitle">Grilled Ham & Cheese Sandwich <span>$4.99</span></div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                     
                     
@@ -115,6 +105,16 @@ export default function Menu(){
                                 <div className="message-header">SPECIALS</div>
                                 <div className="subtitle">Half A Cold Sandwich w/ Chicken Noodle Soup & Soda <span>$8.50</span></div>
                                 <div className="subtitle">Half A Cold Sandwich w/ Deli Salad & Soda <span>$7.25</span></div>
+                            </div>
+                        </div>
+
+                        <div className="kids">
+                            <div className="notification is-size-7">
+                                <div className="message-header">KID'S MENU</div>
+                                <div className="subtitle">Grilled Cheese w/ Fries <span>$5.99</span></div>
+                                <div>
+                                <div className="subtitle">Grilled Ham & Cheese Sandwich <span>$4.99</span></div>
+                                </div>
                             </div>
                         </div>
 

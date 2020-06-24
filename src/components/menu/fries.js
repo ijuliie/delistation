@@ -8,11 +8,6 @@ const fries = [
         item: "BBQ Brisket Fries",
         ingredients: "seasoned fries topped with roasted brisket, grilled onions, green onions, cheese, barbecue sauce, & sunny side up egg",
         price: "10.50"
-    },
-    {
-        item: "Nachos",
-        ingredients: "avocado, pico de gallo, sour cream, jalapenos, cheddar cheese, & choice of carnitas, chicken, or steak",
-        price: "10.99"
     }
 ]
 
