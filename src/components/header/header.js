@@ -1,6 +1,5 @@
 import React from "react"
 import Scrollchor from "react-scrollchor"
-import logo from "../../assets/white-logo-drop-shadow.png"
 import "./header.scss"
 
 export default function Header(){
@@ -24,11 +23,11 @@ export default function Header(){
 
             <nav className="navbar">
                 <div className="navbar-brand">
-                    <a role="button" className="navbar-burger" aria-label="menu" aria-expanded="false">
+                    <button className="navbar-burger" aria-label="menu" aria-expanded="false">
                         <span aria-hidden="true"></span>
                         <span aria-hidden="true"></span>
                         <span aria-hidden="true"></span>
-                    </a>
+                    </button>
                 </div>
                 <div className="navbar-menu">
                     <div className="navbar">
