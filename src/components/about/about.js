@@ -2,7 +2,6 @@ import React from "react"
 import hoursArr from "../hours"
 import italiansub from "../../assets/italian-sub.png"
 import { useMediaQuery } from "react-responsive"
-import Header from "../header/header"
 import logo from "../../assets/white-logo-drop-shadow.png"
 import "./about.scss"
 
@@ -14,22 +13,6 @@ export default function About(){
             {
                 isTablet ?
                     <div id="about" className="about">
-
-                        <div className="banner-wrapper">
-                            <div className="image-wrapper">
-                                <div className="image">
-                                    <div className="content">
-                                        <div className="banner">
-                                            <div className="inner-banner">
-                                                <img src={logo} />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <Header />
                         
                         <div className="row">
                             <div className="columns">
@@ -61,28 +44,14 @@ export default function About(){
                                         </section>
                                     </div>
                                 </div>
-                                <div className="column">
-                                    <img src={italiansub} />
+                                <div className="column italiansub">
+                                    <div><img alt="logo" src={logo} /></div>
                                 </div>
                             </div>
                         </div>
                     </div> :
 
                     <div className="about">
-
-                        <div className="banner-wrapper">
-                            <div className="image-wrapper">
-                                <div className="image">
-                                    <div className="content">
-                                        <div className="banner">
-                                            <div className="inner-banner">
-                                                <img src={logo} />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                         
                         <div className="row">
                             <div className="columns">
@@ -115,7 +84,7 @@ export default function About(){
                                     </div>
                                 </div>
                                 <div className="column">
-                                    <img src={italiansub} />
+                                    <img alt="italiansub" src={italiansub} />
                                 </div>
                             </div>
                         </div>

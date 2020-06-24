@@ -1,87 +1,28 @@
 import React from "react"
 import Scrollchor from "react-scrollchor"
-import logo from "../../assets/main-logo.png"
+import logo from "../../assets/white-logo-drop-shadow.png"
 import "./header.scss"
 
 export default function Header(){
     return (
         <>
-            <nav class="navbar" role="navigation" aria-label="main navigation">
-                <div class="navbar-brand">
-                    <a class="navbar-item" href="https://bulma.io">
-                    {/* <img src={logo} /> */}
-                    </a>
-
-                    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-                    </a>
-                </div>
-
-                {/* <div class="navbar-menu">
-                    <div class="navbar-start">
-                    <a class="navbar-item">
-                        Home
-                    </a>
-
-                    <a class="navbar-item">
-                        Documentation
-                    </a>
-
-                    <div class="navbar-item has-dropdown is-hoverable">
-                        <a class="navbar-link">
-                        More
-                        </a>
-
-                        <div class="navbar-dropdown">
-                        <a href="#about" class="navbar-item">
-                            About
-                        </a>
-                        <a href="#menu" class="navbar-item">
-                            Menu
-                        </a>
-                        <a class="navbar-item">
-                            Contact
-                        </a>
-                        <hr class="navbar-divider" />
-                        <a class="navbar-item">
-                            Report an issue
-                        </a>
-                        </div>
-                    </div>
-                    </div> */}
-
-                    <div class="navbar-end">
-                    {/* <div class="navbar-start"> */}
-                    {/* <a class="navbar-item">
-                        Home
-                    </a>
-
-                    <a class="navbar-item">
-                        Documentation
-                    </a> */}
-
-                    <div class="navbar-item has-dropdown is-hoverable">
-                        <a class="navbar-link">
-                        More
-                        </a>
-
-                        <div class="navbar-dropdown">
-                        <a href="#about" class="navbar-item">
-                            About
-                        </a>
-                        <a href="#menu" class="navbar-item">
-                            Menu
-                        </a>
-                        <a class="navbar-item">
-                            Contact
-                        </a>
+            <div className="banner-wrapper">
+                <div className="image-wrapper">
+                    <div className="image">
+                        <div className="content">
+                            <div className="banner">
+                                <div className="inner-banner">
+                                    <p>Quick.</p>
+                                    <p>Tasty.</p>
+                                    <p>Simple.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </nav>
+            </div>
 
-
-
-            {/* <nav className="navbar">
+            <nav className="navbar">
                 <div className="navbar-brand">
                     <a role="button" className="navbar-burger" aria-label="menu" aria-expanded="false">
                         <span aria-hidden="true"></span>
@@ -90,13 +31,14 @@ export default function Header(){
                     </a>
                 </div>
                 <div className="navbar-menu">
-                    <div className="navbar-end">
-                        <a className="navbar-item"><Scrollchor to="#about">about</Scrollchor></a>
-                        <a className="navbar-item"><Scrollchor to="#menu" animate={{duration: 300}}>menu</Scrollchor></a>
-                        <a className="navbar-item"><Scrollchor to="#contact" >contact</Scrollchor></a>
+                    <div className="navbar">
+                    <Scrollchor className="navbar-item" to="#about">gallery</Scrollchor>
+                        <Scrollchor className="navbar-item" to="#about">about</Scrollchor>
+                        <Scrollchor className="navbar-item" to="#menu" animate={{duration: 300}}>menu</Scrollchor>
+                        <Scrollchor className="navbar-item" to="#contact" >contact</Scrollchor>
                     </div>
                 </div>
-            </nav> */}
+            </nav>
         </>
     )
 }
