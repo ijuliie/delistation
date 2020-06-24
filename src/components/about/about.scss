@@ -19,12 +19,12 @@
     }
 }
 
-.italiansub {
+div .italiansub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 13px;
     background-image: url(../../assets/italian-sub.png);
     background-position: 50% 50%;
     background-size: cover;
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
 }
