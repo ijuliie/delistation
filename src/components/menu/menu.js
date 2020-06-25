@@ -1,4 +1,5 @@
 import React from "react"
+import { Columns, Notification, Card } from "react-bulma-components"
 import breakfastArr from "./breakfast"
 import coldSandwichesArr from "./coldsandwiches"
 import hotSandwichesArr from "./hotsandwiches"
@@ -11,7 +12,7 @@ export default function Menu(){
         return (
             <div key={i}>
                 <p className="subtitle">{breakfast.item}</p>
-                <p className="card-content">{breakfast.ingredients} <span className="has-text-weight-bold">${breakfast.price}</span></p>
+                <Card.Content>{breakfast.ingredients} <span className="has-text-weight-bold">${breakfast.price}</span></Card.Content>
             </div>
         )
     })
@@ -20,7 +21,7 @@ export default function Menu(){
         return (
             <div key={i}>
                 <p className="subtitle">{sandwich.item}</p>
-                <p className="card-content">{sandwich.ingredients} <span className="has-text-weight-bold">${sandwich.price}</span></p>
+                <Card.Content>{sandwich.ingredients} <span className="has-text-weight-bold">${sandwich.price}</span></Card.Content>
             </div>
         )
     })
@@ -29,7 +30,7 @@ export default function Menu(){
         return (
             <div key={i}>
                 <p className="subtitle">{sandwich.item}</p>
-                <p className="card-content">{sandwich.ingredients} <span className="has-text-weight-bold">${sandwich.price}</span></p>
+                <Card.Content>{sandwich.ingredients} <span className="has-text-weight-bold">${sandwich.price}</span></Card.Content>
             </div>
         )
     })
@@ -38,7 +39,7 @@ export default function Menu(){
         return (
             <div key={i}>
                 <p className="subtitle">{salad.item}</p>
-                <p className="card-content">{salad.ingredients} <span className="has-text-weight-bold">${salad.price}</span></p>
+                <Card.Content>{salad.ingredients} <span className="has-text-weight-bold">${salad.price}</span></Card.Content>
             </div>
         )
     })
@@ -47,7 +48,7 @@ export default function Menu(){
         return (
             <div key={i}>
                 <p className="subtitle">{fries.item}</p>
-                <p className="card-content">{fries.ingredients} <span className="has-text-weight-bold">${fries.price}</span></p>
+                <Card.Content>{fries.ingredients} <span className="has-text-weight-bold">${fries.price}</span></Card.Content>
             </div>
         )
     })
@@ -57,70 +58,70 @@ export default function Menu(){
             <h1 className="title has-text-centered">Our Menu</h1>
 
             <div className="row">
-                <div className="columns">
-                    <div className="column breakfast">
+                <Columns>
+                    <Columns.Column className="breakfast">
 
-                        <div className="notification is-size-7">
+                        <Notification className="is-size-7">
                             <div className="message-header">BREAKFAST (served until 11 am)</div>
                                 {breakfast}
-                        </div>
+                        </Notification>
 
-                    </div>
+                    </Columns.Column>
 
-                    <div className="column cold-sandwiches">
-                        <div className="notification is-size-7">
+                    <Columns.Column className="column cold-sandwiches">
+                        <Notification className="is-size-7">
                             <div className="message-header">COLD SANDWICHES (includes 4oz side deli salad)</div>
                             {coldSandwiches}
-                        </div>
-                    </div>
-                </div>
+                        </Notification>
+                    </Columns.Column>
+                </Columns>
             </div>
 
 
             <div className="row">
-                <div className="columns">
-                    <div className="column hot-sandwiches">
-                        <div className="notification is-size-7">
+                <Columns>
+                    <Columns.Column className="hot-sandwiches">
+                        <Notification className="is-size-7">
                             <div className="message-header">HOT SANDWICHES (includes 4oz side deli salad)</div>
                             {hotSandwiches}
-                            </div>
-                    </div>
+                        </Notification>
+                    </Columns.Column>
                     
                     
-                    <div className="column salads">
-                        <div className="notification is-size-7">
+                    <Columns.Column className="salads">
+                        <Notification className="is-size-7">
                             <div className="message-header">SALADS/WRAPS & SOUPS</div>
                             {salads}
-                        </div>
+                        </Notification>
 
                         <div className="fries">
-                            <div className="notification is-size-7">
+                            <Notification className="is-size-7">
                                 <div className="message-header">4TH STREET MARKET FRIES</div>
                                 {fries}
-                            </div>
+                            </Notification>
                         </div>
 
                         <div className="specials">
-                            <div className="notification is-size-7">
+                            <Notification className="is-size-7">
                                 <div className="message-header">SPECIALS</div>
                                 <div className="subtitle">Half A Cold Sandwich w/ Chicken Noodle Soup & Soda <span>$8.50</span></div>
                                 <div className="subtitle">Half A Cold Sandwich w/ Deli Salad & Soda <span>$7.25</span></div>
-                            </div>
+                            </Notification>
                         </div>
 
                         <div className="kids">
-                            <div className="notification is-size-7">
+                            <Notification className="is-size-7">
                                 <div className="message-header">KID'S MENU</div>
                                 <div className="subtitle">Grilled Cheese w/ Fries <span>$5.99</span></div>
                                 <div>
                                 <div className="subtitle">Grilled Ham & Cheese Sandwich <span>$4.99</span></div>
                                 </div>
-                            </div>
+                            </Notification>
                         </div>
 
-                    </div>
+                    </Columns.Column>
 
-                </div>
+                </Columns>
             </div>
 
         </div>

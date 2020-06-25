@@ -1,5 +1,6 @@
 import React from "react"
 import Scrollchor from "react-scrollchor"
+import { Button, Navbar } from "react-bulma-components"
 import "./header.scss"
 
 export default function Header(){
@@ -21,23 +22,18 @@ export default function Header(){
                 </div>
             </div>
 
-            <nav className="navbar">
-                <div className="navbar-brand">
-                    <button className="navbar-burger" aria-label="menu" aria-expanded="false">
-                        <span aria-hidden="true"></span>
-                        <span aria-hidden="true"></span>
-                        <span aria-hidden="true"></span>
-                    </button>
-                </div>
-                <div className="navbar-menu">
-                    <div className="navbar">
-                    <Scrollchor className="navbar-item" to="#about">gallery</Scrollchor>
-                        <Scrollchor className="navbar-item" to="#about">about</Scrollchor>
-                        <Scrollchor className="navbar-item" to="#menu" animate={{duration: 300}}>menu</Scrollchor>
-                        <Scrollchor className="navbar-item" to="#contact" >contact</Scrollchor>
-                    </div>
-                </div>
-            </nav>
+            <Navbar>
+                <Navbar.Brand>
+                    <Navbar.Burger aria-label="menu" aria-expanded="false">
+                    </Navbar.Burger>
+                </Navbar.Brand>
+                <Navbar.Menu>
+                    <Navbar.Item><Scrollchor to="#about">gallery</Scrollchor></Navbar.Item>
+                    <Navbar.Item><Scrollchor to="#about">about</Scrollchor></Navbar.Item>
+                    <Navbar.Item><Scrollchor to="#menu" animate={{duration: 300}}>menu</Scrollchor></Navbar.Item>
+                    <Navbar.Item><Scrollchor to="#contact">contact</Scrollchor></Navbar.Item>
+                </Navbar.Menu>
+            </Navbar>
         </>
     )
 }

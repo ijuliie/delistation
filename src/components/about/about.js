@@ -1,8 +1,8 @@
 import React from "react"
 import hoursArr from "../hours"
-import italiansub from "../../assets/italian-sub.png"
-import { useMediaQuery } from "react-responsive"
 import logo from "../../assets/white-logo-drop-shadow.png"
+import { Columns } from "react-bulma-components"
+import { useMediaQuery } from "react-responsive"
 import "./about.scss"
 
 export default function About(){
@@ -15,24 +15,24 @@ export default function About(){
                     <div id="about" className="about">
                         
                         <div className="row">
-                            <div className="columns">
-                                <div className="intro-wrapper column">
+                            <Columns>
+                                <Columns.Column className="intro-wrapper">
                                     <section className="intro">
                                         <p>We put the "deli" in</p>
                                         <p>"delicious"! Come</p>
                                         <p>visit The Deli Station!</p>
                                     </section>
 
-                                    <div className="columns is-mobile">
-                                        <section className="column address">
+                                    <Columns className="is-mobile">
+                                        <Columns.Column className="column address">
                                             <p className="subtitle">Location:</p>
                                             <p className="subtitle">Downtown Santa Ana</p>
                                             <p className="subtitle">201 East 4th St</p>
                                             <p className="subtitle">Santa Ana, CA 92701</p>
-                                        </section>
+                                        </Columns.Column>
 
 
-                                        <section className="column hours">
+                                        <Columns.Column className="hours">
                                             <p className="subtitle">Hours:</p>
                                             {
                                                 hoursArr.map((hour, i) => {
@@ -41,37 +41,37 @@ export default function About(){
                                                     )
                                                 })
                                             }
-                                        </section>
-                                    </div>
-                                </div>
-                                <div className="column italiansub">
+                                        </Columns.Column>
+                                    </Columns>
+                                </Columns.Column>
+                                <Columns.Column className="italiansub">
                                     <div><img alt="logo" src={logo} /></div>
-                                </div>
-                            </div>
+                                </Columns.Column>
+                            </Columns>
                         </div>
                     </div> :
 
                     <div className="about">
                         
                         <div className="row">
-                            <div className="columns">
-                                <div className="intro-wrapper column">
+                            <Columns>
+                                <Columns.Column className="intro-wrapper">
                                     <section className="intro">
                                         <p>We put the "deli" in</p>
                                         <p>"delicious"! Come</p>
                                         <p>visit The Deli Station!</p>
                                     </section>
         
-                                    <div className="columns">
-                                        <section className="column address">
+                                    <Columns>
+                                        <Columns.Column className="address">
                                             <p className="subtitle">Location:</p>
                                             <p className="subtitle">Downtown Santa Ana</p>
                                             <p className="subtitle">201 East 4th St</p>
                                             <p className="subtitle">Santa Ana, CA 92701</p>
-                                        </section>
+                                        </Columns.Column>
         
         
-                                        <section className="column hours">
+                                        <Columns.Column className="hours">
                                             <p className="subtitle">Hours:</p>
                                             {
                                                 hoursArr.map((hour, i) => {
@@ -80,13 +80,13 @@ export default function About(){
                                                     )
                                                 })
                                             }
-                                        </section>
-                                    </div>
-                                </div>
-                                <div className="column">
-                                    <img alt="italiansub" src={italiansub} />
-                                </div>
-                            </div>
+                                        </Columns.Column>
+                                    </Columns>
+                                </Columns.Column>
+                                <Columns.Column className="italiansub">
+                                    <div><img alt="logo" src={logo} /></div>
+                                </Columns.Column>
+                            </Columns>
                         </div>
                     </div>
             }
