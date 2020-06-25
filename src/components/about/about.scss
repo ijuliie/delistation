@@ -1,5 +1,5 @@
 .intro-wrapper {
-    margin: 3rem 1.5rem;
+    margin: 1rem 0 1rem 0;
 
     .intro {
         text-transform: uppercase;
@@ -7,24 +7,20 @@
         color: #210124;
         font-family: 'Titan One', cursive;
     }
-
-    .columns > .address > .subtitle:nth-of-type(1), .columns > .hours > .subtitle:nth-of-type(1){
-        font-family: 'Sigmar One', cursive;
-        color: #210124;
-    }
-
-    .address > .subtitle, .hours > .subtitle {
-        font-size: 1em;
-        font-weight: 800;
-    }
 }
 
 div .italiansub {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 13px;
+    padding: 3em;
+    // margin: 0 13px 0 0;
+    // max-height: 400px;
     background-image: url(../../assets/italian-sub.png);
     background-position: 50% 50%;
     background-size: cover;
+
+    .logo {
+    width: 100%;
+    }
 }

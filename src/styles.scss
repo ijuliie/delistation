@@ -11,12 +11,12 @@
         justify-content: space-around;
 
         .navbar-item > a {
-            color: #fefffe;
+            color: #fffcf7;
         }
     }
 }
 
-.menu > h1.title {
+.menu > h1.title, .contact > h1.title, .contact > p.title {
     font-size: 2em;
     font-family: 'Sigmar One', cursive;
     margin-bottom: 1rem;
@@ -89,7 +89,7 @@
 
         .intro-wrapper {
             margin: 0;
-            margin: 0.5rem 1.5rem;
+            margin: 0 0 0 0.5rem;
         }
     
         .intro-wrapper .intro {

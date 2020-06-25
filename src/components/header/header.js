@@ -1,6 +1,6 @@
 import React from "react"
 import Scrollchor from "react-scrollchor"
-import { Button, Navbar } from "react-bulma-components"
+import { Navbar } from "react-bulma-components"
 import "./header.scss"
 
 export default function Header(){
@@ -28,10 +28,10 @@ export default function Header(){
                     </Navbar.Burger>
                 </Navbar.Brand>
                 <Navbar.Menu>
-                    <Navbar.Item><Scrollchor to="#about">gallery</Scrollchor></Navbar.Item>
-                    <Navbar.Item><Scrollchor to="#about">about</Scrollchor></Navbar.Item>
-                    <Navbar.Item><Scrollchor to="#menu" animate={{duration: 300}}>menu</Scrollchor></Navbar.Item>
-                    <Navbar.Item><Scrollchor to="#contact">contact</Scrollchor></Navbar.Item>
+                    <Navbar.Item><Scrollchor to="#about" animate={{duration: 200}}>gallery</Scrollchor></Navbar.Item>
+                    <Navbar.Item><Scrollchor to="#about" animate={{duration: 200}}>about</Scrollchor></Navbar.Item>
+                    <Navbar.Item><Scrollchor to="#menu" animate={{duration: 200}}>menu</Scrollchor></Navbar.Item>
+                    <Navbar.Item><Scrollchor to="#contact" animate={{duration: 200}}>contact</Scrollchor></Navbar.Item>
                 </Navbar.Menu>
             </Navbar>
         </>
