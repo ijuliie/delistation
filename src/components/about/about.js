@@ -1,5 +1,6 @@
 import React from "react"
 import logo from "../../assets/white-logo-drop-shadow.png"
+import { Link } from "react-router-dom"
 import { Columns } from "react-bulma-components"
 import "./about.scss"
 
@@ -16,7 +17,7 @@ export default function About(){
                                 <p>"delicious"! Come</p>
                                 <p>visit The Deli Station!</p>
                             </section>
-                            <p>Check out our <a href="/gallery">pictures</a></p>
+                            <p>Check out our <Link to="/gallery">pictures</Link></p>
                         </Columns.Column>
 
                         <Columns.Column>
