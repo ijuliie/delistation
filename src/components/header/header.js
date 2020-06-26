@@ -1,6 +1,4 @@
 import React from "react"
-import Scrollchor from "react-scrollchor"
-import { Navbar } from "react-bulma-components"
 import "./header.scss"
 
 export default function Header(){

@@ -1,13 +1,9 @@
 import React from "react"
 import logo from "../../assets/white-logo-drop-shadow.png"
-import Header from "../header/header"
 import { Columns } from "react-bulma-components"
-import { useMediaQuery } from "react-responsive"
 import "./about.scss"
 
 export default function About(){
-    const isTablet = useMediaQuery({query: "(min-width:768px)"}) 
-
     return (
         <>
             <div id="about" className="about">

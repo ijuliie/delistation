@@ -16,8 +16,8 @@ export default function Contact() {
                     <p className="subtitle">Santa Ana, CA 92701</p>
                 </section>
                     <p className="subtitle">Follow us</p>
-                    <a target="_blank" href="https://www.instagram.com/delistationoc/"><i class="fab fa-instagram"></i></a>
-                    <a target="_blank" href="https://www.facebook.com/The-Deli-Station-102311151183067"><i class="fab fa-facebook"></i></a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/delistationoc/"><i class="fab fa-instagram"></i></a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/The-Deli-Station-102311151183067"><i class="fab fa-facebook"></i></a>
                 </Columns.Column>
 
                 <Columns.Column>
