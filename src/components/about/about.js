@@ -1,6 +1,6 @@
 import React from "react"
-import hoursArr from "../hours"
 import logo from "../../assets/white-logo-drop-shadow.png"
+import Header from "../header/header"
 import { Columns } from "react-bulma-components"
 import { useMediaQuery } from "react-responsive"
 import "./about.scss"
@@ -10,7 +10,6 @@ export default function About(){
 
     return (
         <>
-
             <div id="about" className="about">
                 
                 <div className="row">
@@ -21,6 +20,7 @@ export default function About(){
                                 <p>"delicious"! Come</p>
                                 <p>visit The Deli Station!</p>
                             </section>
+                            <p>Check out our <a href="/gallery">pictures</a></p>
                         </Columns.Column>
 
                         <Columns.Column>

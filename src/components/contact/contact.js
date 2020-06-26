@@ -5,7 +5,7 @@ import "./contact.scss"
 
 export default function Contact() {
     return (
-        <div id="contact" className="contact has-text-centered">
+        <div id="contact" className="has-text-centered contact">
             <h1 className="title">Contact</h1>
             <Columns>
                 <Columns.Column>
