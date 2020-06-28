@@ -155,11 +155,11 @@
         margin-left: 7rem;
     }
 
-    .phone {
-        text-align: right;
+    .phone, .social-media {
+        text-align: left;
     }
 
-    .back {
-        font-size: 1em;
+    .phone {
+        margin-left: 2rem;
     }
 }
