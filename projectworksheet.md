@@ -47,12 +47,12 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | banner header | H | 3 hrs | 5 hrs | 5 hrs |
-| navbar | H | 6 hrs |  hrs |  hrs |
-| hamburger nav bar | 5 hrs | hrs | hrs | 
-| menu section and columns | H | 4 hr | hrs | hrs | 
-| scroll animation on nav links | H | 2 hrs |  hrs | hrs | 
-| gallery route | H | 5 hrs | hrs | hrs |
-| contact section | H | 8 hrs | hrs | hrs |
+| navbar | H | 6 hrs |  6 hrs | 11 hrs |
+| hamburger nav bar | 5 hrs | 3 hrs | 14 hrs | 
+| menu section and columns | H | 4 hr | 10 hrs | 24 hrs | 
+| scroll animation on nav links | H | 2 hrs | 3 hrs | 27 hrs | 
+| gallery route | H | 5 hrs | 3 hrs | 30 hrs |
+| contact section | H | 8 hrs | 5 hrs | 35 hrs |
 | Total | H | hrs| hrs | hrs |
 
 ## Additional Libraries
