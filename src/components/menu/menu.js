@@ -1,5 +1,5 @@
 import React from "react"
-import { Columns, Notification, Card } from "react-bulma-components"
+import { Columns, Box, Notification, Card } from "react-bulma-components"
 import breakfastArr from "./breakfast"
 import coldSandwichesArr from "./coldsandwiches"
 import hotSandwichesArr from "./hotsandwiches"
@@ -55,75 +55,76 @@ export default function Menu(){
 
     return (
         <div id="menu" className="menu">
+
             <h1 className="title has-text-centered">Our Menu</h1>
+            <Box>   
+                <div className="row">
+                    <Columns>
+                        <Columns.Column className="breakfast">
 
-            <div className="row">
-                <Columns>
-                    <Columns.Column className="breakfast">
-
-                        <Notification className="is-size-7">
-                            <div className="message-header">BREAKFAST (served until 11 am)</div>
-                                {breakfast}
-                        </Notification>
-
-                    </Columns.Column>
-
-                    <Columns.Column className="column cold-sandwiches">
-                        <Notification className="is-size-7">
-                            <div className="message-header">COLD SANDWICHES (includes 4oz side deli salad)</div>
-                            {coldSandwiches}
-                        </Notification>
-                    </Columns.Column>
-                </Columns>
-            </div>
-
-
-            <div className="row">
-                <Columns>
-                    <Columns.Column className="hot-sandwiches">
-                        <Notification className="is-size-7">
-                            <div className="message-header">HOT SANDWICHES (includes 4oz side deli salad)</div>
-                            {hotSandwiches}
-                        </Notification>
-                    </Columns.Column>
-                    
-                    
-                    <Columns.Column className="salads">
-                        <Notification className="is-size-7">
-                            <div className="message-header">SALADS/WRAPS & SOUPS</div>
-                            {salads}
-                        </Notification>
-
-                        <div className="fries">
                             <Notification className="is-size-7">
-                                <div className="message-header">4TH STREET MARKET FRIES</div>
-                                {fries}
+                                <div className="message-header">BREAKFAST (served until 11 am)</div>
+                                    {breakfast}
                             </Notification>
-                        </div>
 
-                        <div className="specials">
+                        </Columns.Column>
+
+                        <Columns.Column className="column cold-sandwiches">
                             <Notification className="is-size-7">
-                                <div className="message-header">SPECIALS</div>
-                                <div className="subtitle">Half A Cold Sandwich w/ Chicken Noodle Soup & Soda <span>$8.50</span></div>
-                                <div className="subtitle">Half A Cold Sandwich w/ Deli Salad & Soda <span>$7.25</span></div>
+                                <div className="message-header">COLD SANDWICHES (includes 4oz side deli salad)</div>
+                                {coldSandwiches}
                             </Notification>
-                        </div>
+                        </Columns.Column>
+                    </Columns>
+                </div>
 
-                        <div className="kids">
+
+                <div className="row">
+                    <Columns>
+                        <Columns.Column className="hot-sandwiches">
                             <Notification className="is-size-7">
-                                <div className="message-header">KID'S MENU</div>
-                                <div className="subtitle">Grilled Cheese w/ Fries <span>$5.99</span></div>
-                                <div>
-                                <div className="subtitle">Grilled Ham & Cheese Sandwich <span>$4.99</span></div>
-                                </div>
+                                <div className="message-header">HOT SANDWICHES (includes 4oz side deli salad)</div>
+                                {hotSandwiches}
                             </Notification>
-                        </div>
+                        </Columns.Column>
+                        
+                        
+                        <Columns.Column className="salads">
+                            <Notification className="is-size-7">
+                                <div className="message-header">SALADS/WRAPS & SOUPS</div>
+                                {salads}
+                            </Notification>
 
-                    </Columns.Column>
+                            <div className="fries">
+                                <Notification className="is-size-7">
+                                    <div className="message-header">4TH STREET MARKET FRIES</div>
+                                    {fries}
+                                </Notification>
+                            </div>
 
-                </Columns>
-            </div>
+                            <div className="specials">
+                                <Notification className="is-size-7">
+                                    <div className="message-header">SPECIALS</div>
+                                    <div className="subtitle">Half A Cold Sandwich w/ Chicken Noodle Soup & Soda <span>$8.50</span></div>
+                                    <div className="subtitle">Half A Cold Sandwich w/ Deli Salad & Soda <span>$7.25</span></div>
+                                </Notification>
+                            </div>
 
+                            <div className="kids">
+                                <Notification className="is-size-7">
+                                    <div className="message-header">KID'S MENU</div>
+                                    <div className="subtitle">Grilled Cheese w/ Fries <span>$5.99</span></div>
+                                    <div>
+                                    <div className="subtitle">Grilled Ham & Cheese Sandwich <span>$4.99</span></div>
+                                    </div>
+                                </Notification>
+                            </div>
+
+                        </Columns.Column>
+
+                    </Columns>
+                </div>
+            </Box>
         </div>
     )
 }

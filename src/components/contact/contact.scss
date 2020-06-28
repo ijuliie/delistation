@@ -1,8 +1,9 @@
 i {
-    font-size: 2.5em;
+    font-size: 2em;
+    color: #b3dec1;
 }
 
-.column > .address > .subtitle, .columns > .hours > .subtitle:nth-of-type(1){
+.column > .address > .subtitle, .column > .hours > .subtitle, .column > .phone > .subtitle, .column > .social-media > .subtitle  {
     font-family: 'Sigmar One', cursive;
-    color: #210124
+    color: #210124;
 }

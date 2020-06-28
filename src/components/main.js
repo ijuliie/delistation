@@ -1,9 +1,10 @@
 import React from "react"
+import Header from "./header/header"
+import NavigationBar from "./navigationbar"
 import About from "./about/about"
 import Menu from "./menu/menu"
 import Contact from "./contact/contact"
-import Header from "./header/header"
-import NavigationBar from "./navigationbar"
+import Footer from "./footer/footer"
 
 export default function Main() {
     return (
@@ -13,6 +14,7 @@ export default function Main() {
             <About />
             <Menu />
             <Contact />
+            <Footer />
         </>
     )
 }

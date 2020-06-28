@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #750D37;
+    background-color: #750d37;
     opacity: 0.8;
     position: sticky;
     top: 0;
@@ -9,6 +9,7 @@
 
     .navbar-menu {
         justify-content: space-around;
+        background-color: #750d37;
 
         .navbar-item > a {
             color: #fffcf7;
@@ -16,44 +17,53 @@
     }
 }
 
-.menu > h1.title, .contact > h1.title, .contact > p.title {
+.about > h1.title, .menu > h1.title, .contact > h1.title, .contact > p.title, .gallery {
     font-size: 2em;
     font-family: 'Sigmar One', cursive;
     margin-bottom: 1rem;
     color: #210124;
 }
 
-.subtitle, .subtitle:not(:last-child), .title:not(:last-child) {
-    padding-top: 2%;
-    margin-bottom: 0;
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 15px;
+.box {
+    margin: 1.25rem;
+
+    .column {
+        padding: 0;
+    
+        .message-header {
+            background-color: #b3dec1;
+            position: static;
+        }
+        
+        .subtitle, .subtitle:not(:last-child), .title:not(:last-child) {
+            padding-top: 2%;
+            margin-bottom: 0;
+            text-transform: uppercase;
+            font-weight: 500;
+            font-size: 15px;
+        }
+    
+        .notification .subtitle {
+            color: #210124;
+        }
+    
+        .notification {
+            background-color: transparent;
+            padding: 0;
+            padding: 0.5rem 0.1rem 0.5rem 0.5rem;
+        }
+    
+        .notification:not(:last-child) {
+            margin-bottom: 0;
+        }
+    
+        .card-content {
+            padding: 0;
+            padding-bottom: 1%;
+        }
+    }
 }
 
-.notification .subtitle {
-    color: #210124;
-}
-
-.notification {
-    background-color: transparent;
-    padding: 0;
-    padding: 0.5rem 0.1rem 0.5rem 0.5rem;
-}
-
-.notification:not(:last-child) {
-    margin-bottom: 0;
-}
-
-.message-header {
-    background-color: #B3DEC1;
-    position: static;
-}
-
-.card-content {
-    padding: 0;
-    padding-bottom: 1%;
-}
 
 .intro-wrapper .intro {
     text-align: center;
@@ -62,6 +72,26 @@
 
 .columns > .address, .columns > .hours {
     text-align: center;
+}
+
+.subtitle:not(:last-child), .title:not(:last-child) {
+    margin-bottom: 0;
+}
+
+.about {
+    margin-top: 1rem;
+}
+
+.menu {
+    margin-top: 1rem;
+}
+
+.contact {
+    text-align: center;
+}
+
+.back {
+    font-size: 10.5px;
 }
 
 @media screen and (min-width: 768px) {
@@ -87,6 +117,7 @@
     .about > .row {
         margin-top: 3rem;
 
+
         .intro-wrapper {
             margin: 0;
             margin: 0 0 0 0.5rem;
@@ -98,8 +129,28 @@
         }
     }
 
+    .description > p {
+        font-size: 1.2em;
+    }
+
     .menu {
         margin-bottom: 2rem;
     }
 
+    .address {
+        text-align: end;
+    }
+
+    .column > .hours {
+        text-align: left;
+        margin-left: 7rem;
+    }
+
+    .phone {
+        text-align: right;
+    }
+
+    .back {
+        font-size: 1em;
+    }
 }
