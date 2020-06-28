@@ -18,7 +18,7 @@ import Footer from "../footer/footer"
 export default function Gallery() {
     return (
         <>
-        <p className="back" style={{marginLeft: "1.50rem"}}>back to <Link style={{color: "#750d37"}} to="/">homepage</Link></p>
+        <p className="back" style={{marginLeft: "1.50rem", paddingTop: "1.50rem"}}><Link style={{color: "#750d37"}} to="/"><i class="fas fa-chevron-circle-left"></i></Link></p>
         <h1 className="gallery title has-text-centered">Gallery</h1>
         <Box style={{"margin": "1.5rem"}}>
             <Tile kind="ancestor">

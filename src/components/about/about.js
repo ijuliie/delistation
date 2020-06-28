@@ -20,7 +20,7 @@ export default function About(){
                                 <section className="description">
                                     <p className="has-text-centered">The Deli Station is a newly opened sandwich shop since October 2019.</p>
                                     <p className="has-text-centered">Come and experience our creative sandwiches, salads, and soups in Santa Ana!</p>
-                                    <p className="has-text-centered">Check out our <Link style={{color: "#750d37"}} to="/gallery">GALLERY</Link></p>
+                                    <p className="has-text-centered">Check out our <Link style={{color: "#b3dec1", fontWeight: "700"}} to="/gallery">GALLERY</Link></p>
                                 </section>
                             </Columns.Column>
 

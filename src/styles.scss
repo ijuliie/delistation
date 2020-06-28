@@ -7,6 +7,10 @@
     right: 0;
     z-index: 10;
 
+    .navbar-burger span {
+        background-color: #fffcf7;
+    }
+
     .navbar-menu {
         justify-content: space-around;
         background-color: #750d37;
@@ -26,6 +30,7 @@
     font-family: 'Sigmar One', cursive;
     margin-bottom: 1rem;
     color: #210124;
+    text-shadow: 3px 1px 9px rgba(33,1,36,0.62);
 }
 
 .box {
