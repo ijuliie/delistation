@@ -1,68 +1,57 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## The Deli Station
+https://thedelistation.com/
 
-## Available Scripts
+### Motivation
+My friend just opened a new restaurant back in October and asked me to make a website for him.
 
-In the project directory, you can run:
+### Tech/Framework
+** Built with:**
 
-### `npm start`
+-Figma
+-ReactJS
+-Bulma
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Code Snippets
+This was probably the most time consuming part of the website and something that I am very proud of. I spent a lot of time trying to figure out Bulma's CSS library. I implemented the Tile component, which kind of organizes each section for you, to put the restaurant gallery together. I'm very happy with how the gallery component came out.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+```
+<Box style={{"margin": "1.5rem"}}>
+    <Tile kind="ancestor">
+        <Tile size={8} vertical>
+            <Tile>
+                <Tile kind="parent" vertical>
+                    <Tile vertical>
+                        <Image src={ californiaTurkey } alt="californa-turkey" />
+                        <Image src={ brisketFries } alt="brisket-fries" />
+                        <Image src={ philly } alt="phillycheese" />
+                        <Image src={ holidayTurkeys } alt="holiday-turkeys" />
+                    </Tile>
+                </Tile>
 
-### `npm test`
+                <Tile kind="parent">
+                    <Tile renderAs="article" kind="child">
+                        <Image src={ sliders } alt="sliders" />
+                        <Image src={ chickenPesto } alt="pesto" />
+                        <Image src={ bbqBrisketSausage } alt="brisket-sausage" />
+                    </Tile>
+                </Tile>
+            </Tile>
+        </Tile>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+        <Tile vertical>
+            <Tile kind="parent" vertical>
+                <Tile renderAs="article" kind="child">
+                    <Image src={ italianSub } alt="italian-sub" />
+                    <Image src={ cuban2 } alt="cuban" />
+                    <Image src={ holidayTurkey } alt="holiday-turkey" />
+                    <Image src={ turkey } alt="turkey" />
+                    <Image src={ cuban } alt="cuban" />
+                </Tile>
+            </Tile>
+        </Tile>
+    </Tile>
+</Box>
+```
 
 ### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+I used netlify to deploy my live website.
