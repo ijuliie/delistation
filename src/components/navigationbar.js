@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import Scrollchor from "react-scrollchor" 
+import { Link } from "react-router-dom"
 import { Navbar } from "react-bulma-components"
 import { useMediaQuery } from "react-responsive"
 import { SlideDown } from 'react-slidedown'
@@ -21,7 +22,9 @@ export default function NavigationBar(){
                     <Navbar.Menu style={{backgroundColor: "#750D37"}}>
                         <Navbar.Item><Scrollchor to="#about" animate={{duration: 200}}>about</Scrollchor></Navbar.Item>
                         <Navbar.Item><Scrollchor to="#menu" animate={{duration: 200}}>menu</Scrollchor></Navbar.Item>
-                        <Navbar.Item><Scrollchor to="#contact" animate={{duration: 200}}>contact</Scrollchor></Navbar.Item>                    </Navbar.Menu>
+                        <Navbar.Item><Scrollchor to="#contact" animate={{duration: 200}}>contact</Scrollchor></Navbar.Item>
+                        <Navbar.Item><Link to="/gallery">gallery</Link></Navbar.Item> 
+                    </Navbar.Menu>
                 </Navbar>
             :
                 <Navbar>
@@ -34,6 +37,7 @@ export default function NavigationBar(){
                             <Navbar.Item><Scrollchor to="#about" animate={{duration: 200}}>about</Scrollchor></Navbar.Item>
                             <Navbar.Item><Scrollchor to="#menu" animate={{duration: 200}}>menu</Scrollchor></Navbar.Item>
                             <Navbar.Item><Scrollchor to="#contact" animate={{duration: 200}}>contact</Scrollchor></Navbar.Item>
+                            <Navbar.Item><Link to="/gallery">gallery</Link></Navbar.Item> 
                         </Navbar.Menu>
                     </SlideDown>
                 </Navbar>
