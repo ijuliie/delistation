@@ -10,12 +10,13 @@
     }
 }
 
-div .italiansub {
+div .brisket {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 3em;
-    background-image: url(../../assets/italiansuboverlay.png);
+    background-image: linear-gradient(rgba(100, 100, 100, 0.3),
+    rgba(100, 100, 100, 0.3)), url(../../assets/sloppybbq2.jpg);
     background-position: 50% 50%;
     background-size: cover;
 

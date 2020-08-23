@@ -14,8 +14,7 @@ export default function About(){
                         <Columns className="is-gapless">
                             <Columns.Column className="intro-wrapper">
                                 <section className="intro">
-                                    <p>We put the "deli" in</p>
-                                    <p>"delicious"!</p>
+                                    <p>We put the "deli" in "delicious"!</p>
                                 </section>
                                 <section className="description">
                                     <p className="has-text-centered">The Deli Station is a newly opened sandwich shop since October 2019.</p>
@@ -25,7 +24,7 @@ export default function About(){
                             </Columns.Column>
 
                             <Columns.Column>
-                                <div className="italiansub">
+                                <div className="brisket">
                                         <div><img className="logo" alt="logo" src={logo} /></div>      
                                 </div>
                             </Columns.Column>

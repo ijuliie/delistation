@@ -1,18 +1,21 @@
 import React from "react"
 import { Link } from "react-router-dom"
 import { Box, Image, Tile } from "react-bulma-components"
-import brisketFries from "../../assets/bbqbrisketfries.png"
-import californiaTurkey from "../../assets/californiaturkeyclub.png"
-import chickenPesto from "../../assets/chickenpesto.png"
-import bbqBrisketSausage from "../../assets/bbqbrisketsausage.png"
-import cuban from "../../assets/cuban.png"
-import cuban2 from "../../assets/cuban2.png"
-import philly from "../../assets/phillycheese.png"
-import italianSub from "../../assets/italian-sub.png"
-import turkey from "../../assets/turkey.png"
-import holidayTurkeys from "../../assets/holidayturkeys.png"
-import holidayTurkey from "../../assets/holidayturkey.png"
-import sliders from "../../assets/sliders.png"
+import sloppyBbq from "../../assets/sloppybbq.jpg"
+import brisketFries from "../../assets/brisketFries.jpg"
+import cuban from "../../assets/IMG_9653.jpg"
+import cuban2 from "../../assets/IMG_9650.jpg"
+import omelette from "../../assets/omelette.jpg"
+import breakfastBurrito from "../../assets/breakfastburrito.jpg"
+import breakfastBurrito2 from "../../assets/IMG_9651.jpg"
+import westernBurger from "../../assets/westernburger.jpg"
+import pastramiColeslow from "../../assets/pastramicoleslaw.jpg"
+import caesarWrap from "../../assets/IMG_9647.jpg"
+import phillycheese from "../../assets/phillycheesesteak.jpg"
+import santaFeWrap from "../../assets/IMG_9654.jpg"
+import frenchToast from "../../assets/IMG_9652.jpg"
+import frenchToast2 from "../../assets/frenchtoast.jpg"
+import italianSub from "../../assets/italiansub.jpg"
 import Footer from "../footer/footer"
 
 export default function Gallery() {
@@ -26,18 +29,21 @@ export default function Gallery() {
                     <Tile>
                         <Tile kind="parent" vertical>
                             <Tile vertical>
-                                <Image src={ californiaTurkey } alt="californa-turkey" />
-                                <Image src={ brisketFries } alt="brisket-fries" />
-                                <Image src={ philly } alt="phillycheese" />
-                                <Image src={ holidayTurkeys } alt="holiday-turkeys" />
+                                <Image src={ cuban } alt="cuban" />
+                                <Image src={ phillycheese } alt="phillycheese" />
+                                <Image src={ pastramiColeslow } alt="pastrami" />
+                                <Image src={ santaFeWrap } alt="wrap" />
+                                <Image src={ italianSub } alt="italian sub" />
                             </Tile>
                         </Tile>
 
                         <Tile kind="parent">
                             <Tile renderAs="article" kind="child">
-                                <Image src={ sliders } alt="sliders" />
-                                <Image src={ chickenPesto } alt="pesto" />
-                                <Image src={ bbqBrisketSausage } alt="brisket-sausage" />
+                                <Image src={ frenchToast } alt="french toast" />
+                                <Image src={ omelette } alt="omelette" />
+                                <Image src={ breakfastBurrito } alt="burrito" />
+                                <Image src={ brisketFries } alt="brisket fries" />
+                                <Image src={ cuban2 } alt="cuban" />
                             </Tile>
                         </Tile>
                     </Tile>
@@ -46,11 +52,11 @@ export default function Gallery() {
                 <Tile vertical>
                     <Tile kind="parent" vertical>
                         <Tile renderAs="article" kind="child">
-                            <Image src={ italianSub } alt="italian-sub" />
-                            <Image src={ cuban2 } alt="cuban" />
-                            <Image src={ holidayTurkey } alt="holiday-turkey" />
-                            <Image src={ turkey } alt="turkey" />
-                            <Image src={ cuban } alt="cuban" />
+                            <Image src={ breakfastBurrito2 } alt="burrito" />
+                            <Image src={ westernBurger } alt="burger" />
+                            <Image src={ caesarWrap } alt="wrap" />
+                            <Image src={ sloppyBbq } alt="sloppy bbq" />
+                            <Image src={ frenchToast2 } alt="french toast" />
                         </Tile>
                     </Tile>
                 </Tile>

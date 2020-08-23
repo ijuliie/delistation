@@ -11,7 +11,8 @@
 
         .image {
             vertical-align: middle;
-            background-image: url(../../assets/cuban-dark-overlay.png);
+            background-image: linear-gradient(rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.7)), url(../../assets2/IMG_9649.jpg);
             background-repeat: no-repeat;
             background-position: 50% 50%;
             background-size: cover;
