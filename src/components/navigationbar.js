@@ -34,9 +34,9 @@ export default function NavigationBar(){
                             </Navbar.Burger>
                         </Navbar.Brand>
                         <Navbar.Menu style={ isActive ? { display: "block"} : {}}>
-                            <Navbar.Item><Scrollchor to="#about" animate={{duration: 200}}>about</Scrollchor></Navbar.Item>
-                            <Navbar.Item><Scrollchor to="#menu" animate={{duration: 200}}>menu</Scrollchor></Navbar.Item>
-                            <Navbar.Item><Scrollchor to="#contact" animate={{duration: 200}}>contact</Scrollchor></Navbar.Item>
+                            <Navbar.Item><Scrollchor to="#about" animate={{duration: 500}}>about</Scrollchor></Navbar.Item>
+                            <Navbar.Item><Scrollchor to="#menu" animate={{duration: 500}}>menu</Scrollchor></Navbar.Item>
+                            <Navbar.Item><Scrollchor to="#contact" animate={{duration: 500}}>contact</Scrollchor></Navbar.Item>
                             <Navbar.Item><Link to="/gallery">gallery</Link></Navbar.Item> 
                         </Navbar.Menu>
                     </SlideDown>
