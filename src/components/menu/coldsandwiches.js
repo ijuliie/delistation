@@ -2,17 +2,17 @@ const coldSandwiches = [
     {
         item: "Oven Roast Turkey",
         ingredients: "turkey, cranberry mayo, lettuce, red onions, tomatoes, pickles, provolone cheese",
-        price: "8.25"
+        price: "8.50"
     },
     {
         item: "Oven Roast Ham",
         ingredients: "ham, cranberry mayo, lettuce, red onions, tomatoes, pickles, provolone cheese",
-        price: "8.25"
+        price: "8.50"
     }, 
     {
         item: "Tuna Salad",
         ingredients: "white albacore tuna, lettuce, tomatoes, red onions, provolone cheese",
-        price: "8.25"
+        price: "9.50"
     },
     {
         item: "The Veggie",
@@ -27,7 +27,7 @@ const coldSandwiches = [
     {
         item: "California Turkey Club",
         ingredients: "turkey, bacon, cranberry mayo, lettuce, red onions, tomatoes, pickles, avocado, provolone cheese",
-        price: "9.99"
+        price: "10.50"
     }
 ]
 

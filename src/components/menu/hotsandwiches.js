@@ -57,7 +57,7 @@ const hotSandwiches = [
     {
         item: "Ribeye Philly Cheesesteak",
         ingredients: "baguette, steak, grilled onions, bell peppers, provolone cheese",
-        price: "10.50"
+        price: "10.99"
     }
 ]
 

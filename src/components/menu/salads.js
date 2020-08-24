@@ -7,7 +7,7 @@ const salads = [
     {
         item: "Chicken Caesar Salad",
         ingredients: "grilled chicken, romaine lettuce, croutons, avocado, caesar dressing, parmesan cheese",
-        price: "8.75/$7.75"
+        price: "9.99/$8.99"
     },
     {
         item: "Santa Fe Chicken Salad",
@@ -16,16 +16,16 @@ const salads = [
     },
     {
         item: "BBQ Chicken Salad",
-        ingredients: "grilled chicken, romaine lettuce, tomatoes, avocado, cucumber, corn, barbecue sauce, side of ranch", //dressing?
+        ingredients: "grilled chicken, romaine lettuce, tomatoes, avocado, cucumber, corn, barbecue sauce, side of ranch",
         price: "10.99/$9.99"
     }, 
     {
         item: "12oz Chicken Noodle Soup",
-        price: "3.50"
+        price: "3.99"
     },
     {
         item: "Soup of The Day",
-        price: "4.50"
+        price: "4.99"
     }
 ]
 
