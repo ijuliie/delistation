@@ -35,7 +35,7 @@ export default function Contact() {
                         <section className="phone">
                             <p className="subtitle">We also cater!</p>
                             <p className="is-uppercase">Call to place an order.</p>
-                            <p>(657) 200-8376</p>
+                            <p>(657) 366-8339</p>
                         </section>
                     </Columns.Column>
 
