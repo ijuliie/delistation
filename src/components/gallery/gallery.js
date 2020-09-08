@@ -1,6 +1,8 @@
 import React from "react"
 import { Link } from "react-router-dom"
 import { Box, Image, Tile } from "react-bulma-components"
+import { Navbar } from "react-bulma-components"
+import NavigationBar from "../navigationbar"
 import sloppyBbq from "../../assets/sloppybbq.jpg"
 import brisketFries from "../../assets/brisketFries.jpg"
 import cuban from "../../assets/IMG_9653.jpg"
@@ -22,50 +24,52 @@ import Footer from "../footer/footer"
 export default function Gallery() {
     return (
         <>
-        <p className="back" style={{marginLeft: "1.50rem", paddingTop: "1.50rem"}}><Link style={{color: "#750d37"}} to="/"><i class="fas fa-chevron-circle-left"></i></Link></p>
-        <h1 className="gallery title has-text-centered">Gallery</h1>
-        <Box style={{"margin": "1.5rem"}}>
-            <FadeIn transitionDuration={1000}>
-                <Tile kind="ancestor">
-                    <Tile size={8} vertical>
-                        <Tile>
+            <NavigationBar style={{"justifyContent": "flex-start"}}>
+                <Navbar.Item><Link to="/">back to home</Link></Navbar.Item>
+            </NavigationBar>
+            <h1 style={{"marginTop": "1.5rem"}} className="gallery title has-text-centered">Gallery</h1>
+            <Box style={{"margin": "1.5rem"}}>
+                <FadeIn transitionDuration={600}>
+                    <Tile kind="ancestor">
+                        <Tile size={8} vertical>
+                            <Tile>
+                                <Tile kind="parent" vertical>
+                                    <Tile vertical>
+                                        <Image src={ cuban } alt="cuban" />
+                                        <Image src={ phillycheese } alt="phillycheese" />
+                                        <Image src={ pastramiColeslow } alt="pastrami" />
+                                        <Image src={ santaFeWrap } alt="wrap" />
+                                        <Image src={ italianSub } alt="italian sub" />
+                                    </Tile>
+                                </Tile>
+
+                                <Tile kind="parent">
+                                    <Tile renderAs="article" kind="child">
+                                        <Image src={ frenchToast } alt="french toast" />
+                                        <Image src={ omelette } alt="omelette" />
+                                        <Image src={ breakfastBurrito } alt="burrito" />
+                                        <Image src={ brisketFries } alt="brisket fries" />
+                                        <Image src={ cuban2 } alt="cuban" />
+                                    </Tile>
+                                </Tile>
+                            </Tile>
+                        </Tile>
+
+                        <Tile vertical>
                             <Tile kind="parent" vertical>
-                                <Tile vertical>
-                                    <Image src={ cuban } alt="cuban" />
-                                    <Image src={ phillycheese } alt="phillycheese" />
-                                    <Image src={ pastramiColeslow } alt="pastrami" />
-                                    <Image src={ santaFeWrap } alt="wrap" />
-                                    <Image src={ italianSub } alt="italian sub" />
-                                </Tile>
-                            </Tile>
-
-                            <Tile kind="parent">
                                 <Tile renderAs="article" kind="child">
-                                    <Image src={ frenchToast } alt="french toast" />
-                                    <Image src={ omelette } alt="omelette" />
-                                    <Image src={ breakfastBurrito } alt="burrito" />
-                                    <Image src={ brisketFries } alt="brisket fries" />
-                                    <Image src={ cuban2 } alt="cuban" />
+                                    <Image src={ breakfastBurrito2 } alt="burrito" />
+                                    <Image src={ westernBurger } alt="burger" />
+                                    <Image src={ caesarWrap } alt="wrap" />
+                                    <Image src={ sloppyBbq } alt="sloppy bbq" />
+                                    <Image src={ frenchToast2 } alt="french toast" />
                                 </Tile>
                             </Tile>
                         </Tile>
                     </Tile>
-
-                    <Tile vertical>
-                        <Tile kind="parent" vertical>
-                            <Tile renderAs="article" kind="child">
-                                <Image src={ breakfastBurrito2 } alt="burrito" />
-                                <Image src={ westernBurger } alt="burger" />
-                                <Image src={ caesarWrap } alt="wrap" />
-                                <Image src={ sloppyBbq } alt="sloppy bbq" />
-                                <Image src={ frenchToast2 } alt="french toast" />
-                            </Tile>
-                        </Tile>
-                    </Tile>
-                </Tile>
-            </FadeIn>
-        </Box>
-        <Footer />
+                </FadeIn>
+            </Box>
+            <Footer />
         </>
     )
 }
