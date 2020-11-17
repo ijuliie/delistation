@@ -15,9 +15,9 @@ const coldSandwiches = [
         price: "9.50"
     },
     {
-        item: "The Veggie",
-        ingredients: "mayo, mustard, lettuce, red onions, tomatoes, pickles, cucumbers, avocado, provolone cheese, swiss cheese",
-        price: "8.25"
+        item: "The Club",
+        ingredients: "ham, turkey, mayo, mustard, lettuce, tomato, red onions, pickles",
+        price: "10.50"
     },
     {
         item: "Italian Submarine",

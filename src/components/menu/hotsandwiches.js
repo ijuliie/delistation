@@ -20,9 +20,9 @@ const hotSandwiches = [
         price: "10.50"
     },
     {
-        item: "Sloppy BBQ Pork",
-        ingredients: "baguette, shredded pork, barbecue sauce, chipotle sauce, coleslaw, crispy fries",
-        price: "10.50"
+        item: "Chicken Cordon Bleu",
+        ingredients: "sourdough bread, breaded chicken, ham, mayo, mustard, lettice, tomato, pickles, onions, swiss cheese",
+        price: "10.99"
     },
     {
         item: "Sloppy BBQ Brisket & Sausage",
@@ -30,18 +30,13 @@ const hotSandwiches = [
         price: "10.99"
     },
     {
-        item: "Pigged Out Patty Melt",
-        ingredients: "rye bread, 8 oz patty, bacon, tomatoes, avocado, grilled onions, russian dressing, american cheese",
+        item: "Meatball Sandwich",
+        ingredients: "french roll, meatballs, marinara sauce, provolone cheese, parmesan cheese",
         price: "10.99"
     },
     {
         item: "California Chicken Club",
         ingredients: "sourdough bread, grilled chicken, bacon, mayo, mustard, lettuce, tomatoes, avocado, red onions, provolone cheese",
-        price: "10.99"
-    },
-    {
-        item: "Turkey Melt",
-        ingredients: "sourdough bread, turkey, avocado, swiss cheese",
         price: "10.99"
     },
     {
@@ -57,6 +52,11 @@ const hotSandwiches = [
     {
         item: "Ribeye Philly Cheesesteak",
         ingredients: "baguette, steak, grilled onions, bell peppers, provolone cheese",
+        price: "10.99"
+    },
+    {
+        item: "Reuben",
+        ingredients: "rye bread, pastrami, sauerkraut, russian dressing, swiss cheese",
         price: "10.99"
     }
 ]
