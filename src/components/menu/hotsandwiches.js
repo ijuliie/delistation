@@ -22,12 +22,12 @@ const hotSandwiches = [
     {
         item: "Chicken Cordon Bleu",
         ingredients: "sourdough bread, breaded chicken, ham, mayo, mustard, lettice, tomato, pickles, onions, swiss cheese",
-        price: "10.99"
+        price: "11.49"
     },
     {
         item: "Sloppy BBQ Brisket & Sausage",
         ingredients: "baguette, beef brisket, sausage, barbecue sauce, chipotle sauce, coleslaw, crispy fries",
-        price: "10.99"
+        price: "11.49"
     },
     {
         item: "Meatball Sandwich",

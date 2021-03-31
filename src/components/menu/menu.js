@@ -113,9 +113,9 @@ export default function Menu(){
                             <div className="kids">
                                 <Notification className="is-size-7">
                                     <div className="message-header">KID'S MENU</div>
-                                    <div className="subtitle">Grilled Cheese w/ Fries <span>$5.99</span></div>
+                                    <div className="subtitle">Grilled Cheese w/ Fries <span>$6.50</span></div>
                                     <div>
-                                    <div className="subtitle">Grilled Ham & Cheese Sandwich <span>$4.99</span></div>
+                                    <div className="subtitle">Grilled Ham & Cheese Sandwich <span>$5.50</span></div>
                                     </div>
                                 </Notification>
                             </div>
