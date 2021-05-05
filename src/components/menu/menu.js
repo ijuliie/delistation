@@ -12,7 +12,7 @@ export default function Menu(){
         return (
             <div key={i}>
                 <p className="subtitle">{breakfast.item}</p>
-                <Card.Content>{breakfast.ingredients} <span className="has-text-weight-bold">${breakfast.price}</span></Card.Content>
+                <Card.Content>{breakfast.ingredients}</Card.Content>
             </div>
         )
     })
@@ -21,7 +21,7 @@ export default function Menu(){
         return (
             <div key={i}>
                 <p className="subtitle">{sandwich.item}</p>
-                <Card.Content>{sandwich.ingredients} <span className="has-text-weight-bold">${sandwich.price}</span></Card.Content>
+                <Card.Content>{sandwich.ingredients}</Card.Content>
             </div>
         )
     })
@@ -30,7 +30,7 @@ export default function Menu(){
         return (
             <div key={i}>
                 <p className="subtitle">{sandwich.item}</p>
-                <Card.Content>{sandwich.ingredients} <span className="has-text-weight-bold">${sandwich.price}</span></Card.Content>
+                <Card.Content>{sandwich.ingredients}</Card.Content>
             </div>
         )
     })
@@ -39,7 +39,7 @@ export default function Menu(){
         return (
             <div key={i}>
                 <p className="subtitle">{salad.item}</p>
-                <Card.Content>{salad.ingredients} <span className="has-text-weight-bold">${salad.price}</span></Card.Content>
+                <Card.Content>{salad.ingredients}</Card.Content>
             </div>
         )
     })
@@ -48,7 +48,7 @@ export default function Menu(){
         return (
             <div key={i}>
                 <p className="subtitle">{fries.item}</p>
-                <Card.Content>{fries.ingredients} <span className="has-text-weight-bold">${fries.price}</span></Card.Content>
+                <Card.Content>{fries.ingredients}</Card.Content>
             </div>
         )
     })
@@ -105,17 +105,17 @@ export default function Menu(){
                             <div className="specials">
                                 <Notification className="is-size-7">
                                     <div className="message-header">SPECIALS</div>
-                                    <div className="subtitle">Half A Cold Sandwich w/ Chicken Noodle Soup & Soda <span>$8.50</span></div>
-                                    <div className="subtitle">Half A Cold Sandwich w/ Deli Salad & Soda <span>$7.25</span></div>
+                                    <div className="subtitle">Half A Cold Sandwich w/ Chicken Noodle Soup & Soda</div>
+                                    <div className="subtitle">Half A Cold Sandwich w/ Deli Salad & Soda</div>
                                 </Notification>
                             </div>
 
                             <div className="kids">
                                 <Notification className="is-size-7">
                                     <div className="message-header">KID'S MENU</div>
-                                    <div className="subtitle">Grilled Cheese w/ Fries <span>$6.50</span></div>
+                                    <div className="subtitle">Grilled Cheese w/ Fries</div>
                                     <div>
-                                    <div className="subtitle">Grilled Ham & Cheese Sandwich <span>$5.50</span></div>
+                                    <div className="subtitle">Grilled Ham & Cheese Sandwich</div>
                                     </div>
                                 </Notification>
                             </div>
