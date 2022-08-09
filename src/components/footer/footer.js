@@ -5,7 +5,7 @@ export default function Footer() {
     return (
         <footer>
             <p>
-                © Julie Trinh 2020
+                © Julie Trinh 2022
             </p>
         </footer>
     )

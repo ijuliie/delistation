@@ -4,8 +4,8 @@ const hotSandwiches = [
         ingredients: "baguette, sliced roast pork, ham, mayo, mustard, pickles, tomatoes, avocado, swiss cheese"
     },
     {
-        item: "Tuna Melt",
-        ingredients: "rye bread, white albacore tuna, avocado, swiss cheese"
+        item: "Melts (Tuna, Turkey, or Patty)",
+        ingredients: "choice of meat, rye bread, tomatoes, avocado, swiss cheese"
     },
     {
         item: "Carnitas Torta",
@@ -14,10 +14,6 @@ const hotSandwiches = [
     {
         item: "Chicken Pesto",
         ingredients: "sourdough bread, grilled chicken, pesto sauce, tomatoes, spinach, provolone cheese"
-    },
-    {
-        item: "Chicken Cordon Bleu",
-        ingredients: "sourdough bread, breaded chicken, ham, mayo, mustard, lettice, tomato, pickles, onions, swiss cheese"
     },
     {
         item: "Sloppy BBQ Brisket & Sausage",
@@ -36,16 +32,24 @@ const hotSandwiches = [
         ingredients: "sourdough bread, bacon, lettuce, tomatoes, mayo, avocado"
     },
     {
+        item: "Philly Cheesesteak",
+        ingredients: "baguette, steak, grilled onions, bell peppers, provolone cheese"
+    },
+    {
+        item: "Pastrami on Rye",
+        ingredients: "rye bread, pastrami, mustard, pickles, swiss cheese"
+    },
+    {
         item: "Pastrami & Coleslaw",
         ingredients: "baguette, pastrami, russian dressing, coleslaw, provolone cheese"
     },
     {
-        item: "Ribeye Philly Cheesesteak",
-        ingredients: "baguette, steak, grilled onions, bell peppers, provolone cheese"
-    },
-    {
         item: "Reuben",
         ingredients: "rye bread, pastrami, sauerkraut, russian dressing, swiss cheese"
+    },
+    {
+        item: "Tomato Mozzarella Sandwich",
+        ingredients: "sourdough bread, pesto, tomatoes, balsamic glaze, mozzarella cheese"
     }
 ]
 

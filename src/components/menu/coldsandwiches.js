@@ -22,6 +22,10 @@ const coldSandwiches = [
     {
         item: "California Turkey Club",
         ingredients: "turkey, bacon, cranberry mayo, lettuce, red onions, tomatoes, pickles, avocado, provolone cheese"
+    },
+    {
+        item: "The Veggie",
+        ingredients: "mayo, mustard, lettuce, pepperoncini, pickles, cucumbers, tomatoes, avocado, provolone cheese"
     }
 ]
 
