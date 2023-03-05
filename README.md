@@ -2,17 +2,17 @@
 https://thedelistation.com/
 
 ### Motivation
-My friend just opened a new restaurant back in October and asked me to make a website for him.
+My friend opened a new restaurant and asked me to make a website for his menu.
 
 ### Tech/Framework
-** Built with: **
+**Built with:**
 
 - Figma
 - ReactJS
 - Bulma
 
 ### Code Snippets
-This was probably the most time consuming part of the website and something that I am very proud of. I spent a lot of time trying to figure out Bulma's CSS library. I implemented the Tile component, which kind of organizes each section for you, to put the restaurant gallery together. I'm very happy with how the gallery component came out.
+This was probably the most time consuming part of the website and something that I am very proud of. I spent a lot of time trying to figure out Bulma's CSS library. I implemented the Tile component, which organizes each section for you, to put the restaurant gallery together. I'm very happy with how the gallery component came out.
 
 ```
 <Box style={{"margin": "1.5rem"}}>
