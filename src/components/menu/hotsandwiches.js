@@ -48,6 +48,14 @@ const hotSandwiches = [
         ingredients: "rye bread, pastrami, sauerkraut, russian dressing, swiss cheese"
     },
     {
+        item: "French Dip",
+        ingredients: "baguette, roast beef, garlic aoili, provolone cheese"
+    },
+    {
+        item: "Banh Mi",
+        ingredients: "baguette, marinated pork, cucumber, fresh jalepenos, cilantro, pickled carrots, pickled daikons"
+    },
+    {
         item: "Tomato Mozzarella Sandwich",
         ingredients: "sourdough bread, pesto, tomatoes, balsamic glaze, mozzarella cheese"
     }
