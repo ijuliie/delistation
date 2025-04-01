@@ -1,19 +1,19 @@
 const hotSandwiches = [
     {
-        item: "The Cuban",
-        ingredients: "baguette, sliced roast pork, ham, mayo, mustard, pickles, tomatoes, avocado, swiss cheese"
-    },
-    {
-        item: "Melts (Tuna, Turkey, or Patty)",
-        ingredients: "choice of meat, rye bread, tomatoes, avocado, swiss cheese"
-    },
-    {
         item: "Carnitas Torta",
-        ingredients: "baguette, carnitas, mayo, mustard, avocado, guajillo salsa, panela cheese"
+        ingredients: "baguette, carnitas, mayo, mustard, avocado, avocado, salsa"
+    },
+    {
+        item: "The Cuban",
+        ingredients: "baguette, sliced roast pork, ham, mayo, mustard, pickles, tomato, avocado, swiss cheese"
     },
     {
         item: "Chicken Pesto",
-        ingredients: "sourdough bread, grilled chicken, pesto sauce, tomatoes, spinach, provolone cheese"
+        ingredients: "sourdough bread, grilled chicken, pesto sauce, tomato, lettuce, provolone cheese"
+    },
+    {
+        item: "California Chicken Club",
+        ingredients: "sourdough bread, grilled chicken, bacon, mayo, mustard, lettuce, tomato, avocado, onions, swiss cheese"
     },
     {
         item: "Sloppy BBQ Brisket & Sausage",
@@ -21,44 +21,41 @@ const hotSandwiches = [
     },
     {
         item: "Meatball Sandwich",
-        ingredients: "french roll, meatballs, marinara sauce, provolone cheese, parmesan cheese"
+        ingredients: "meatballs, marinara sauce, provolone cheese"
     },
     {
-        item: "California Chicken Club",
-        ingredients: "sourdough bread, grilled chicken, bacon, mayo, mustard, lettuce, tomatoes, avocado, red onions, provolone cheese"
-    },
-    {
-        item: "BLT w/ Avocado",
-        ingredients: "sourdough bread, bacon, lettuce, tomatoes, mayo, avocado"
-    },
-    {
-        item: "Philly Cheesesteak",
-        ingredients: "baguette, steak, grilled onions, bell peppers, provolone cheese"
-    },
-    {
-        item: "Pastrami on Rye",
-        ingredients: "rye bread, pastrami, mustard, pickles, swiss cheese"
+        item: "BLT Avocado",
+        ingredients: "bacon, mayo, lettuce, tomato, avocado"
     },
     {
         item: "Pastrami & Coleslaw",
-        ingredients: "baguette, pastrami, russian dressing, coleslaw, provolone cheese"
+        ingredients: "baguette, pastrami, thousand island dressing, coleslaw, swiss cheese"
+    },
+    {
+        item: "Philly Cheesesteak",
+        ingredients: "baguette, steak, mayo, grilled onions, bell peppers, provolone cheese"
     },
     {
         item: "Reuben",
-        ingredients: "rye bread, pastrami, sauerkraut, russian dressing, swiss cheese"
+        ingredients: "pastrami, russian dressing, sauerkraut, swiss cheese"
     },
     {
-        item: "French Dip",
-        ingredients: "baguette, roast beef, garlic aoili, provolone cheese"
+        item: "Pastrami on Rye",
+        ingredients: "pastrami, mustard, pickles, swiss cheese"
     },
     {
-        item: "Banh Mi",
-        ingredients: "baguette, marinated pork, cucumber, fresh jalepenos, cilantro, pickled carrots, pickled daikons"
+        item: "French Dip Sandwich",
+        ingredients: "roast beef, garlic aoili, provolone cheese"
     },
     {
-        item: "Tomato Mozzarella Sandwich",
-        ingredients: "sourdough bread, pesto, tomatoes, balsamic glaze, mozzarella cheese"
-    }
+        item: "Cheeseburger & Fries",
+    },
+    {
+        item: "Bacon Western Cheeseburger & Fries",
+    },
+    {
+        item: "Melts (Tuna, Turkey, or Patty)",
+    },
 ]
 
 export default hotSandwiches
