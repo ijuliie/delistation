@@ -69,7 +69,6 @@ export default function Gallery() {
                     </Tile>
                 </FadeIn>
             </Box>
-            <Footer />
         </>
     )
 }

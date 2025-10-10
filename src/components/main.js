@@ -26,7 +26,6 @@ export default function Main() {
                 <About />
                 <Menu />
                 <Contact />
-                <Footer />
             </FadeIn>
         </>
     )
