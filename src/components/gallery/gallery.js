@@ -19,7 +19,6 @@ import frenchToast from "../../assets/IMG_9652.jpg"
 import frenchToast2 from "../../assets/frenchtoast.jpg"
 import italianSub from "../../assets/italiansub.jpg"
 import FadeIn from 'react-fade-in';
-import Footer from "../footer/footer"
 
 export default function Gallery() {
     return (
